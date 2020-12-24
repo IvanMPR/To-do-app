@@ -5,12 +5,6 @@ let output = document.querySelector('.output');
 
 button.addEventListener('click', addItem);
 
-input.addEventListener('keyup', function (event) {
-  if (event.key === 'Enter') {
-    button.click();
-  }
-});
-
 function addItem(string) {
   string = input.value;
   if (string === '') {
@@ -38,3 +32,11 @@ function addItem(string) {
     };
   }
 }
+
+input.addEventListener('keyup', function (event) {
+  if (event.key === 'Enter') {
+    button.click();
+  }
+});
+
+
