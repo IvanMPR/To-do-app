@@ -33,10 +33,10 @@ function addItem(string) {
   }
 }
 
-// input.addEventListener('keyup', function (event) {
-//   if (event.key === 'Enter') {
-//     button.click();
-//   }
-// });
+input.addEventListener('keyup', function (event) {
+  if (event.key === 'Enter') {
+    button.click();
+  }
+});
 
 
