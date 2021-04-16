@@ -2,7 +2,7 @@ const button = document.querySelector('.btn');
 let input = document.querySelector('.input');
 let list = document.querySelector('.list');
 let output = document.querySelector('.output');
-
+//commeeeeennnnnnnnnnttttt
 button.addEventListener('click', addItem);
 
 function addItem(string) {
