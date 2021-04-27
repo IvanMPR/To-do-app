@@ -4,7 +4,7 @@ let list = document.querySelector('.list');
 let output = document.querySelector('.output');
 
 button.addEventListener('click', addItem);
-
+// comment
 function addItem(string) {
   string = input.value;
   if (string === '') {
